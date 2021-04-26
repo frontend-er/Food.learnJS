@@ -92,14 +92,15 @@ h6 {
 /* Header styles */
 /*Header styles end*/
 /* Footer strats */
-.q {
-  float: left;
-}
-
 /* Footer ends */
 /* Main styles stars*/
 body {
   display: flex;
+}
+
+.red {
+  background-color: red;
+  color: red;
 }
 
 /* Main styles ends*/

@@ -1,1 +1,1 @@
-yutr;
+console.log(1);
