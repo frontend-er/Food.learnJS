@@ -1,7 +1,13 @@
 /* Header styles */
 .menu-bar {
+   margin: 20px 0px;
    color: red;
    font-family: Os-extraLigth;
+   background-color: #fff;
+}
+
+body {
+   background-color: #8f8b8b;
 }
 
 .menu {
@@ -20,6 +26,79 @@
          color: #212121;
 
       }
+   }
+}
+
+.header>div {
+   padding: 180px 0px;
+   background: url(../img/header.png) 0 0 no-repeat;
+   background-position: 0 100%;
+   background-size: cover;
+
+}
+
+.header {
+   // .header__title
+   text-align: center;
+   color: #fff;
+   font-family: Os-bold;
+
+   &__title {
+      font-weight: 55px;
+   }
+
+   // .header__text
+
+   &__text {
+      font-size: 20px;
+      margin-bottom: 100px;
+   }
+
+   // .header__btn
+
+   &__btn {
+      padding: 10px 25px;
+      margin: 0px 10px;
+      color: white;
+      transition: all ease 0.3s;
+   }
+}
+
+.button {
+
+   // .button__empty
+   &__empty {
+      border: 2px solid white;
+      background: transparent;
+
+   }
+
+
+}
+
+.button__empty:hover {
+   background: #00897b;
+   border: 2px solid #00897b;
+
+}
+
+
+
+.about {
+   margin: 120px 0px 100px 0px;
+   color: #212121;
+   background: #fff;
+   text-align: center;
+
+
+
+   &__title {
+      font-family: Os-bold;
+   }
+
+   &__text {
+
+      margin-bottom: 110px
    }
 }
 
