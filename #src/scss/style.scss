@@ -5,5 +5,78 @@
 @import "_fonts";
 /* Main styles stars*/
 
+.about {
+   margin: 120px 0px 100px 0px;
+   color: #212121;
+   background: #fff;
+   text-align: center;
+
+
+
+   &__title {
+      font-family: Os-bold;
+   }
+
+   &__text {
+      margin-top: 30px;
+      margin-bottom: 110px
+   }
+
+   &__h3 {
+      font-family: Os-medium;
+   }
+
+
+}
+
+
+.services {
+   padding: 165px 0px 80px 0px;
+   color: #212121;
+   background: rgb(197, 248, 244);
+   text-align: center;
+
+   &__btn {
+      text-transform: uppercase;
+      border: 2px solid black;
+      background: transparent;
+      padding: 12px 12px 12px 12px;
+      transition: all ease 0.3s;
+      cursor: pointer;
+   }
+}
+
+i {
+   width: 100px;
+}
+
+
+.our__cart {
+   background: #fff;
+   padding: 50px 20px 40px 20px;
+   margin-bottom: 40px;
+
+}
+
+.our__cart:hover {
+   background-color: rgb(104, 151, 131);
+   transition: all ease 0.5s;
+   color: floralwhite;
+   box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.46);
+
+   .services__btn {
+      border: 2px solid white;
+      color: white;
+
+
+   }
+}
+
+
+.icon {
+   font-size: 60px;
+   padding-bottom: 20px;
+   padding-top: 12px;
+}
 
 /* Main styles ends*/
