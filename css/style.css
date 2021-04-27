@@ -117,7 +117,7 @@ body {
   color: #212121;
 }
 
-.header > div {
+.header {
   padding: 180px 0px;
   background: url(../img/header.png) 0 0 no-repeat;
   background-position: 0 100%;
@@ -137,6 +137,7 @@ body {
   margin-bottom: 100px;
 }
 .header__btn {
+  text-transform: uppercase;
   padding: 10px 25px;
   margin: 0px 10px;
   color: white;
@@ -151,6 +152,10 @@ body {
 .button__empty:hover {
   background: #00897b;
   border: 2px solid #00897b;
+}
+
+.filter {
+  margin-bottom: 50px;
 }
 
 /*Header styles end*/
@@ -230,6 +235,23 @@ i {
   font-size: 60px;
   padding-bottom: 20px;
   padding-top: 12px;
+}
+
+.portfolio {
+  padding: 120px 0px;
+  text-align: center;
+}
+.portfolio__btn {
+  border: 2px solid #689783;
+  color: black;
+  margin-bottom: 20px;
+}
+.portfolio img {
+  padding: 40px;
+}
+
+.portfolio__btn:hover {
+  color: #fff;
 }
 
 /* Main styles ends*/

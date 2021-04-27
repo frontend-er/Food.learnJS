@@ -79,4 +79,26 @@ i {
    padding-top: 12px;
 }
 
+
+.portfolio {
+   padding: 120px 0px;
+   text-align: center;
+
+   &__btn {
+      border: 2px solid rgb(104, 151, 131);
+      color: black;
+      margin-bottom: 20px;
+   }
+
+   img {
+      padding: 40px;
+   }
+
+
+}
+
+.portfolio__btn:hover {
+   color: #fff;
+}
+
 /* Main styles ends*/

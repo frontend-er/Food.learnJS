@@ -22,7 +22,7 @@ body {
   color: #212121;
 }
 
-.header > div {
+.header {
   padding: 180px 0px;
   background: url(../img/header.png) 0 0 no-repeat;
   background-position: 0 100%;
@@ -42,6 +42,7 @@ body {
   margin-bottom: 100px;
 }
 .header__btn {
+  text-transform: uppercase;
   padding: 10px 25px;
   margin: 0px 10px;
   color: white;
@@ -56,6 +57,10 @@ body {
 .button__empty:hover {
   background: #00897b;
   border: 2px solid #00897b;
+}
+
+.filter {
+  margin-bottom: 50px;
 }
 
 /*Header styles end*/
