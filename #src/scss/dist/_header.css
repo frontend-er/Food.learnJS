@@ -54,7 +54,8 @@ body {
   background: transparent;
 }
 
-.button__empty:hover {
+.button__empty:hover,
+.focused {
   background: #00897b;
   border: 2px solid #00897b;
 }

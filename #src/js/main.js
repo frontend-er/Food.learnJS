@@ -1,48 +1,30 @@
 $(document).ready(function ()  {
-   $('button[filter="2"]').click(function () {
-   if($(this).attr('val') == 'off') {
-      $('button[filter]').attr('val', 'off');
-      $(this).attr('val', 'on');
-      $('.filter > div ').hide(300);
-      $('.filter > div[filter="2"] ').show(300);
-   
-   }
-   
-   }); 
-   $('button[filter="3"]').click(function () {
-      if($(this).attr('val') == 'off') {
-         $('button[filter]').attr('val','off');
-         $(this).attr('val','on');
-         
-         $('.filter > div ').hide(300);
-         $('.filter > div[filter="3"] ').show(300);
-      
+   $('button[filter]').click(function () {
+   if($(this).attr('filter') == '1') {
+      if($(this).attr('val', 'off')) {
+         $('button[filter]').attr('val', 'off');
+         $(this).attr('val', 'on');
+         $('button[filter]').removeClass('focused');
+         $(this).addClass('focused');
+         $('.filter > div').show(300);
       }
-      
-      }); 
-      $('button[filter="4"]').click(function () {
-         if($(this).attr('val') == 'off') {
-            $('button[filter]').attr('val', 'off');
-            $(this).attr('val', 'on');
-            
-            $('.filter > div ').hide(300);
-            $('.filter > div[filter="4"] ').show(300);
-         
-         }
-         
-         }); 
+     
+   
+   } else 
+      if($(this).attr('val') == 'off') {
+         $('button[filter]').attr('val', 'off');
+         $(this).attr('val','on');
+         $('button[filter]').removeClass('focused');
+         $(this).addClass('focused');
+         $('.filter > div ').hide(300);
+         var filter =$(this).attr('filter');
+         $('.filter > div[filter='+filter+']').show(300);
+      }
 
-         $('button[filter="1"]').click(function () {
-            if($(this).attr('val') == 'off') {
-               $('button[filter]').attr('val', 'off');
-               $(this).attr('val', 'on');
-               
-               $('.filter > div ').show(300);
-               
-            
-            }
-            
-            }); 
+   }); 
+   
+      
+   
 });  
 
 
