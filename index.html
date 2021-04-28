@@ -1,490 +1,304 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-  <title>Bootstrap </title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-  // Add the new slick-theme.css if you want the default styling
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/style.css.map">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <header>
-    <div class="menu-bar">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-2 align-self-center">
-            <div class="menu__logo">
-              <img src="img/Logo.png" alt="">
+    <header class="header">
+        <div class="header__left-block">
+            <div class="header__logo">
+                <img src="icons/logo.svg" alt="Логотип">
             </div>
-          </div>
-          <div class="col-xl-8 ml-auto align-self-center">
-            <nav>
-              <ul class="menu d-flex justify-content-end">
-                <li class="menu__item">
-                  <a href="#">Home</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#">About</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#">Servicing</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#">Portfolio</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#">Blog</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#">Contact us</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#"><i class="fas fa-search"></i></a>
-                </li>
-              </ul>
+            <nav class="header__links">
+                <a href="#" class="header__link">Доставка питания</a>
+                <a href="#" class="header__link">Второй пункт</a>
             </nav>
-          </div>
         </div>
-      </div>
-    </div>
-  </header>
-  <header class="header">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-12">
-          <h1 class="header__title"> Web deploiment projects</h1>
-          <p class="header__text"> Very situable to support all web develpment projects</p>
-          <button class="header__btn button__empty">
-            Our services
-          </button>
-          <button class="header__btn button__empty ">
-            Contact us
-          </button>
+        <div class="header__right-block">
+            <button class="btn btn_white">Связаться с нами</button>
         </div>
-      </div>
-    </div>
-  </header>
-
-  <section class="about">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xl-8">
-          <h2 class="about__title">
-            About Us
-          </h2>
-          <p class="about__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam,
-          </p>
-        </div>
-      </div>
-      <div class="row justify-content-around">
-        <div class="col-xl-3">
-          <img src="img/internet.png" alt="">
-
-          </img>
-          <h2 class="about__h3">Awesome Icons</h2>
-          <p class="about__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-        </div>
-        <div class="col-xl-3">
-          <img src="img/transfer.png" alt="">
-          </img>
-          <h2 class="about__h3">One Page</h2>
-          <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-
-        </div>
-        <div class="col-xl-3">
-          <img src="img/head.png" alt="">
-          </img>
-          <h2 class="about__h3">Fully Responsive</h2>
-          <p class="about__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          </p>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="services">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xl-8">
-          <h2 class="about__title">
-            Our services
-          </h2>
-          <p class="about__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam,
-          </p>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-xl-4">
-          <div class="our__cart">
-            <i class="fas fa-mobile icon"></i>
-            <h2 class="about__h3">Fully Responsive</h2>
-            <p class="about__text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            </p>
-            <button class="services__btn">Read more</button>
-          </div>
-        </div>
-
-
-        <div class="col-xl-4">
-          <div class="our__cart">
-            <i class="fas fa-mobile icon"></i>
-            <h2 class="about__h3">Fully Responsive</h2>
-            <p class="about__text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            </p>
-            <button class="services__btn">Read more</button>
-          </div>
-        </div>
-        <div class="col-xl-4">
-          <div class="our__cart">
-            <i class="fas fa-mobile icon"></i>
-            <h2 class="about__h3">Fully Responsive</h2>
-            <p class="about__text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            </p>
-            <button class="services__btn">Read more</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-xl-4">
-          <div class="our__cart">
-            <i class="fas fa-mobile icon"></i>
-            <h2 class="about__h3">Fully Responsive</h2>
-            <p class="about__text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            </p>
-            <button class="services__btn">Read more</button>
-          </div>
-        </div>
-
-
-        <div class="col-xl-4">
-          <div class="our__cart">
-            <i class="fas fa-mobile icon"></i>
-            <h2 class="about__h3">Fully Responsive</h2>
-            <p class="about__text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            </p>
-            <button class="services__btn">Read more</button>
-          </div>
-        </div>
-        <div class="col-xl-4">
-          <div class="our__cart">
-            <i class="fas fa-mobile icon"></i>
-            <h2 class="about__h3">Fully Responsive</h2>
-            <p class="about__text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            </p>
-            <button class="services__btn">Read more</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section class="portfolio">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xl-12">
-          <h2 class="about__title">
-            Latest works
-          </h2>
-          <p class="about__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam,
-          </p>
-
-          <button val='on' class="header__btn button__empty portfolio__btn" filter='1'>
-            All
-          </button>
-          <button val='off' class="header__btn button__empty portfolio__btn " filter='2'>
-            Web desighn
-          </button>
-          <button val='off' class="header__btn button__empty portfolio__btn " filter='3'>
-            UI/UX desighn
-          </button>
-          <button val='off' class="header__btn button__empty portfolio__btn " filter='4'>
-            morkaps
-          </button>
-        </div>
-        <div class="row filter">
-          <div filter='2' class="col-xl-4"><img src="img/Layer 2.png" alt="">
-            <div class="text">
-              <h5>Hand Drier</h5>
-              <p>Web Desighn</p>
-            </div>
-          </div>
-          <div filter='3' class="col-xl-4"><img src="img/Layer 3.png" alt="">
-            <div class="text">
-              <h5>T-shirt</h5>
-              <p>UI/UX desighn</p>
-            </div>
-          </div>
-          <div filter='4' class="col-xl-4"><img src="img/Layer 4.png" alt="">
-            <div class="text">
-              <h5>Blood</h5>
-              <p>Morkaps</p>
-            </div>
-          </div>
-          <div filter='4' class="col-xl-4"><img src="img/Layer 5.png" alt="">
-            <div class="text">
-              <h5>Wine</h5>
-              <p>Morkaps</p>
-            </div>
-          </div>
-          <div filter='4' class="col-xl-4"><img src="img/Layer 6.png" alt="">
-            <div class="text">
-              <h5>Hand Bag</h5>
-              <p>Morkaps</p>
-            </div>
-          </div>
-          <div filter='4' class="col-xl-4"><img src="img/Layer 7.png" alt="">
-            <div class="text">
-              <h5>Hand Watch</h5>
-              <p>Morkaps</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <button class="header__btn button__empty portfolio__btn col-xl-1">
-          SEE ALL
-        </button>
-      </div>
-  </section>
-
-  <section class="prices">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xl-8">
-          <h2 class="about__title">
-            Price Select
-          </h2>
-          <p class="about__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam,
-          </p>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-xl-4">
-          <div class="prices__card">
-            <div class="prices__head">
-              <h5>Free trail</h5> <br>
-              <p><sup>$</sup> 00 <sub>per/mounth</sub></p>
-
-            </div>
-            <div class="prices__body">
-              <ul>
-                <li>
-                  30 days free trail
-                </li>
-                <li>
-                  5 days Free projects
-                </li>
-                <li>
-                  PHP5 Enrbled
-                </li>
-                <li>
-                  24/7 support
-                </li>
-              </ul>
-            </div>
-            <div class="prices__footer">
-              <button class="header__btn button__empty portfolio__btn">Order Now</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4">
-          <div class="prices__card">
-            <div class="prices__head">
-              <h5>Basic</h5> <br>
-              <p><sup>$</sup> 50 <sub>per/mounth</sub></p>
-
-            </div>
-            <div class="prices__body">
-              <ul>
-                <li>
-                  30 days free trail
-                </li>
-                <li>
-                  5 days Free projects
-                </li>
-                <li>
-                  PHP5 Enrbled
-                </li>
-                <li>
-                  24/7 support
-                </li>
-              </ul>
-            </div>
-            <div class="prices__footer">
-              <button class="header__btn button__empty portfolio__btn">Order Now</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4">
-          <div class="prices__card">
-            <div class="prices__head">
-              <h5>Premium</h5> <br>
-              <p><sup>$</sup> 99 <sub>per/mounth</sub></p>
-
-            </div>
-            <div class="prices__body">
-              <ul>
-                <li>
-                  30 days free trail
-                </li>
-                <li>
-                  5 days Free projects
-                </li>
-                <li>
-                  PHP5 Enrbled
-                </li>
-                <li>
-                  24/7 support
-                </li>
-              </ul>
-            </div>
-            <div class="prices__footer">
-              <button class="header__btn button__empty portfolio__btn">Order Now</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="team">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-xl-8">
-          <h2 class="about__title">
-            Our Team
-          </h2>
-          <p class="about__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam,
-          </p>
-        </div>
-      </div>
-
-
-      <div class="multiple-items row justify-content-center">
-        <div class="col-xl-4">
-          <img src="img/team1.png" alt="">
-          <h2>
-            Jhohn Doe
-          </h2>
-          <p>General Manager</p>
-          <div class="team__social">
-            <a href="">
-              <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span></a>
-            <a href=""> <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-vk fa-stack-1x fa-inverse"></i>
-              </span></a>
-            <a href=""> <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span></a>
-            <a href=""> <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-              </span></a>
-          </div>
-        </div>
-        <div class="col-xl-4">
-          <img src="img/team3.png" alt="">
-          <h2>
-            Jhohn Doe
-          </h2>
-          <p>General Manager</p>
-          <div class="team__social">
-            <a href="">
-              <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span></a>
-            <a href=""> <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-vk fa-stack-1x fa-inverse"></i>
-              </span></a>
-            <a href=""> <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span></a>
-            <a href=""> <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-              </span></a>
-          </div>
-        </div>
-        <div class="col-xl-4">
-          <img src="img/team2.png" alt="">
-          <h2>
-            Jhohn Doe
-          </h2>
-          <p>General Manager</p>
-          <div class="team__social">
-            <a href="">
-              <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span></a>
-            <a href=""> <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-vk fa-stack-1x fa-inverse"></i>
-              </span></a>
-            <a href=""> <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span></a>
-            <a href=""> <span class="fa-stack fa-2x">
-                <i class="fas fa-square fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-              </span></a>
-          </div>
-        </div>
-      </div>
-
+    </header>
+    <div class="sidepanel">
+        <div class="sidepanel__text"><span>Социальные сети</span></div>
+        <div class="sidepanel__divider"></div>
+        <a href="#" class="sidepanel__icon">
+            <img src="icons/instagram.svg" alt="instagram">
+        </a>
+        <a href="#" class="sidepanel__icon">
+            <img src="icons/facebook.svg" alt="facebook">
+        </a>
     </div>
 
-  </section>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
-  <script src="https://kit.fontawesome.com/893c429910.js" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-    crossorigin="anonymous"> </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
+    <div class="preview">
+        <div class="bgc_blue"></div>
+        <div class="container">
+            <div class="tabcontainer">
+                <div class="tabcontent">
+                    <img src="img/tabs/vegy.jpg" alt="vegy">
+                    <div class="tabcontent__descr">
+                        Меню "Фитнес" - это новый подход к приготовлению блюд: больше свежих овощей и фруктов. Для людей, которые интересуются спортом; активных и здоровых. Это абсолютно новый продукт с оптимальной ценой и высоким качеством!
+                    </div>
+                </div>
+                <!-- <div class="tabcontent">
+                    <img src="img/tabs/elite.jpg" alt="elite">
+                    <div class="tabcontent__descr">
+                        Меню “Премиум” - мы используем не только красивый дизайн упаковки, но и качественное исполнение блюд. Красная рыба, морепродукты, фрукты - ресторанное меню без похода в ресторан!                                     
+                    </div>
+                </div> -->
+                <!-- <div class="tabcontent">
+                    <img src="img/tabs/post.jpg" alt="post">
+                    <div class="tabcontent__descr">
+                        Наше специальное “Постное меню” - это тщательный подбор ингредиентов: полное отсутствие продуктов животного происхождения. Полная гармония с собой и природой в каждом элементе! Все будет Ом!                                     
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/vegy.jpg" alt="vegy">
+                    <div class="tabcontent__descr">
+                        Меню "Сбалансированное" - это соответствие вашего рациона всем научным рекомендациям. Мы тщательно просчитываем вашу потребность в к/б/ж/у и создаем лучшие блюда для вас.
+                    </div>
+                </div> -->
+                <div class="tabheader">
+                    <h3>Выберите стиль питания</h3>
+                    <div class="tabheader__items">
+                        <div class="tabheader__item tabheader__item_active">Фитнес</div>
+                        <div class="tabheader__item">Премиум</div>
+                        <div class="tabheader__item">Постное</div>
+                        <div class="tabheader__item">Сбалансированное</div>
+                    </div>
+                </div>
+            </div>
+            <div class="preview__life">Живи полной жизнью!</div>
+        </div>
+    </div>
 
+    <div class="divider"></div>
+
+    <div class="offer">
+        <div class="bgc_y"></div>
+        <div class="container">
+            <div class="offer__text">
+                <h2 class="title">Что мы можем вам предложить?</h2>
+                <div class="offer__descr">
+                    Наша основная идея - это правильное питание. Оно может быть простым и вкусным. Мы не просто доставка, мы сервис! Мы взяли на себя все расчеты БЖУ, калорийности, объемов порций и прочие важные, но скучные аспекты. Вам остается только полезная, сытная и правильная еда, которую мы привозим прямо под дверь.
+                </div>
+            </div>
+            <div class="offer__action">
+                <button class="btn btn_dark">Связаться с нами</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="offer__advantages">
+                <h2>Быстро и полезно</h2>
+                <div class="offer__advantages-text">
+                    Готовка дома занимает много сил, времени и нервов. Мы привозим еду сразу на целый день, и ты можешь действовать так, как тебе удобно, не подстраиваясь ни под кого и будучи уверенным в качестве продукта!
+                </div>
+                <h2>Правильный рацион</h2>
+                <div class="offer__advantages-text">
+                    Мы разработали специальное меню, где учтены все нюансы правильного питания, от баланса БЖУ до их приготовления и дробления рациона.
+                </div>
+            </div>
+            <div class="offer__slider">
+                <div class="offer__slider-counter">
+                    <div class="offer__slider-prev">
+                        <img src="icons/left.svg" alt="prev">
+                    </div>
+                    <span id="current">03</span>
+                    /
+                    <span id="total">04</span>
+                    <div class="offer__slider-next">
+                        <img src="icons/right.svg" alt="next">
+                    </div>
+                </div>
+                <div class="offer__slider-wrapper">
+                    <div class="offer__slide">
+                        <img src="img/slider/pepper.jpg" alt="pepper">
+                    </div>
+                    <!-- <div class="offer__slide">
+                        <img src="img/slider/food-12.jpg" alt="food">
+                    </div>
+                    <div class="offer__slide">
+                        <img src="img/slider/olive-oil.jpg" alt="oil">
+                    </div>
+                    <div class="offer__slide">
+                        <img src="img/slider/paprika.jpg" alt="paprika">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="calculating">
+        <div class="container">
+            <h2 class="title">Рассчитаем вашу потребность в калориях?
+            </h2>
+            <div class="calculating__field">
+                <div class="calculating__subtitle">
+                    Ваш пол
+                </div>
+                <div class="calculating__choose" id="gender">
+                    <div class="calculating__choose-item calculating__choose-item_active">Женщина</div>
+                    <div class="calculating__choose-item">Мужчина</div>
+                </div>
+
+                <div class="calculating__subtitle">
+                    Ваша конституция
+                </div>
+                <div class="calculating__choose calculating__choose_medium">
+                    <input type="text" id="height" placeholder="Введите рост" class="calculating__choose-item">
+                    <input type="text" id="weight" placeholder="Введите вес"  class="calculating__choose-item">
+                    <input type="text" id="age" placeholder="Введите возраст" class="calculating__choose-item">
+                </div>
+
+                <div class="calculating__subtitle">
+                    Выберите вашу физическая активность
+                </div>
+                <div class="calculating__choose calculating__choose_big">
+                    <div id="low" class="calculating__choose-item">Низкая активность </div>
+                    <div id="small"  class="calculating__choose-item calculating__choose-item_active">Невысокая активность</div>
+                    <div id="medium" class="calculating__choose-item">Умеренная активность</div>
+                    <div id="high" class="calculating__choose-item">Высокая активность</div>
+                </div>
+
+                <div class="calculating__divider"></div>
+
+                <div class="calculating__total">
+                    <div class="calculating__subtitle">
+                        Ваша суточная норма калорий:
+                    </div>
+                    <div class="calculating__result">
+                        <span>2700</span> ккал
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="menu">
+        <h2 class="title">Наше меню на день</h2>
+
+        <div class="menu__field">
+            <div class="container">
+                <div class="menu__item">
+                    <img src="img/tabs/vegy.jpg" alt="vegy">
+                    <h3 class="menu__item-subtitle">Меню "Фитнес"</h3>
+                    <div class="menu__item-descr">Меню "Фитнес" - это новый подход к приготовлению блюд: больше свежих овощей и фруктов. Продукт активных и здоровых людей. Это абсолютно новый продукт с оптимальной ценой и высоким качеством!</div>
+                    <div class="menu__item-divider"></div>
+                    <div class="menu__item-price">
+                        <div class="menu__item-cost">Цена:</div>
+                        <div class="menu__item-total"><span>229</span> грн/день</div>
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="img/tabs/elite.jpg" alt="elite">
+                    <h3 class="menu__item-subtitle">Меню “Премиум”</h3>
+                    <div class="menu__item-descr">В меню “Премиум” мы используем не только красивый дизайн упаковки, но и качественное исполнение блюд. Красная рыба, морепродукты, фрукты - ресторанное меню без похода в ресторан!</div>
+                    <div class="menu__item-divider"></div>
+                    <div class="menu__item-price">
+                        <div class="menu__item-cost">Цена:</div>
+                        <div class="menu__item-total"><span>550</span> грн/день</div>
+                    </div>
+                </div>
+                <div class="menu__item">
+                    <img src="img/tabs/post.jpg" alt="post">
+                    <h3 class="menu__item-subtitle">Меню "Постное"</h3>
+                    <div class="menu__item-descr">Меню “Постное” - это тщательный подбор ингредиентов: полное отсутствие продуктов животного происхождения, молоко из миндаля, овса, кокоса или гречки, правильное количество белков за счет тофу и импортных вегетарианских стейков. </div>
+                    <div class="menu__item-divider"></div>
+                    <div class="menu__item-price">
+                        <div class="menu__item-cost">Цена:</div>
+                        <div class="menu__item-total"><span>430</span> грн/день</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="order">
+        <div class="container">
+            <div class="title">Заказывай пробный день прямо сейчас!</div>
+            <form action="#" class="order__form">
+                <input required placeholder="Ваше имя" name="name" type="text" class="order__input">
+                <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="order__input">
+                <img src="icons/right.svg" alt="right">
+                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="promotion">
+        <div class="bgc_y"></div>
+        <div class="container">
+            <div class="promotion__text">
+                <div class="title">Акция для новых клиентов!</div>
+                <div class="promotion__descr">
+                    Мы ценим каждого клиента и предлагаем вам стать одним из них на очень выгодных условиях. 
+                    Каждому, кто закажет доставку питание на неделю, будет предоставлена скидка в размере <span>20%!</span>
+                    <br><br>
+                    Акция закончится 20 мая в 00:00
+                </div>
+            </div>
+            <div class="promotion__timer">
+                <div class="title">Осталось до конца акции:</div>
+                <div class="timer">
+                    <div class="timer__block">
+                        <span id="days">12</span>
+                        дней
+                    </div>
+                    <div class="timer__block">
+                        <span id="hours">20</span>
+                        часов
+                    </div>
+                    <div class="timer__block">
+                        <span id="minutes">56</span>
+                        минут
+                    </div>
+                    <div class="timer__block">
+                        <span id="seconds">20</span>
+                        секунд
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social">
+                <div class="subtitle">Мы в социальных сетях:</div>
+                <a href="#" class="link">instagram</a>
+                <a href="#" class="link">facebook</a>
+            </div>
+            <div class="pepper">
+                <img src="icons/veg.svg" alt="pepper">
+            </div>
+            <div class="call">
+                <div class="subtitle">Или позвоните нам</div>
+                <a href="#" class="link">+380678341034</a>
+                <a href="#" class="link">+380500941356</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div class="modal__close">&times;</div>
+                    <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                    <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                    <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
+</html>
