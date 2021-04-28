@@ -1,5 +1,7 @@
 "use strict";
 
+// import Swiper JS
+// import Swiper styles
 $(document).ready(function () {
   $('button[filter]').click(function () {
     if ($(this).attr('filter') == '1') {
@@ -19,5 +21,10 @@ $(document).ready(function () {
       var filter = $(this).attr('filter');
       $('.filter > div[filter=' + filter + ']').show(300);
     }
+  });
+  $('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
   });
 });

@@ -328,4 +328,34 @@ div[filter]:hover .text {
   background: #689783;
 }
 
+.team {
+  background: white;
+  padding: 120px 0px;
+  text-align: center;
+}
+.team h2 {
+  margin-top: 10px;
+  font-family: Os-regular;
+}
+.team__social {
+  display: flex;
+  justify-content: center;
+}
+.team__social a i {
+  transition: all ease 0.3s;
+}
+.team__social i:nth-child(1) {
+  color: #e6e6e6;
+}
+.team__social i:nth-child(2) {
+  color: #4a6b5e;
+}
+
+.team__social a:hover i:nth-child(1) {
+  color: #204ddf;
+}
+.team__social a:hover i:nth-child(2) {
+  color: white;
+}
+
 /* Main styles ends*/

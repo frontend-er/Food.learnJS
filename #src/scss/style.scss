@@ -198,4 +198,51 @@ div[filter]:hover .text {
    }
 }
 
+
+.team {
+   background: rgb(255, 255, 255);
+   padding: 120px 0px;
+   text-align: center;
+
+   h2 {
+      margin-top: 10px;
+      font-family: Os-regular;
+   }
+
+
+
+   &__social {
+      a i {
+         transition: all ease 0.3s;
+
+      }
+
+      display: flex;
+      justify-content: center;
+
+      i:nth-child(1) {
+         color: rgb(230, 230, 230);
+      }
+
+      i:nth-child(2) {
+         color: rgb(74, 107, 94);
+      }
+
+   }
+
+}
+
+.team__social a:hover {
+
+   i:nth-child(1) {
+      color: rgb(32, 77, 223);
+
+   }
+
+   i:nth-child(2) {
+      color: rgb(255, 255, 255);
+   }
+
+}
+
 /* Main styles ends*/
