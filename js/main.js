@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', function () {
                hideTabContent();
                showTabContent(i);
             }
-         })
+         });
       }
    });
 
@@ -101,4 +101,52 @@ window.addEventListener('DOMContentLoaded', function () {
 
    
    setClock('.timer', dedline);
+
+
+
+   // Modal window
+
+   const openModal = document.querySelectorAll('[data-modal]'),
+         closeMOdal =  document.querySelector('[data-close]'),
+         modalWindow = document.querySelector('.modal');
+
+
+   function closeModal () {
+         modalWindow.classList.remove('show');
+         modalWindow.classList.add('hide');
+         document.body.style.overflow = '';
+   }     
+
+
+   openModal.forEach( btn => {
+      btn.addEventListener('click' , () => {
+         modalWindow.classList.add('show');
+         modalWindow.classList.remove('hide');
+         document.body.style.overflow = 'hidden';
+
+      });
+         
+   });
+
+ 
+   closeMOdal.addEventListener('click', closeModal);
+
+   modalWindow.addEventListener('click', (e) => {
+      if(e.target === modalWindow) {
+         closeModal();
+      }
+   });
+
+   document.addEventListener('keydown', (e) => {
+      if (e.code === "Escape" && modalWindow.classList.contains('show')) {
+         closeModal();
+
+      }
+
+   });
+
 });
+
+
+
+

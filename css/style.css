@@ -101,6 +101,14 @@ a {
   margin-right: 0;
 }
 
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
 .sidepanel {
   position: fixed;
   left: 60px;
