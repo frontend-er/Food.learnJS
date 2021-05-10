@@ -1,2 +1,4 @@
 ./scss
 .prepros.config
+
+/node_modules
