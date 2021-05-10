@@ -2,3 +2,5 @@
 .prepros.config
 
 /node_modules
+
+.webpack.config.js

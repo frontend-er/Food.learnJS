@@ -12,11 +12,24 @@
   },
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    "> 1%"
+  ],
   "bugs": {
     "url": "https://github.com/frontend-er/Food.learnJS/issues"
   },
   "homepage": "https://github.com/frontend-er/Food.learnJS#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.12.1",
     "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
   }
 }
